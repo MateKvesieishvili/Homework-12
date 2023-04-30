@@ -1,0 +1,46 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+/* !Header */
+header{
+    width: 100%;
+    display: flex;
+    background: #13345B;
+    padding: 47px 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo{
+    transition: all .7s;
+}
+ul{
+    display: flex;
+    gap: 52px;
+}
+.nav{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    border-radius: 15px;
+    transition: all .7s;
+}
+.home, .product{
+    color: #FDD504;
+}
+.contact{
+    color: #FD0404;
+}
+.fa-cart-shopping{
+    font-size: 36px;
+    color: #FDD504;
+}
+
+.nav:hover{
+    font-size: 45px;
+    background-color: azure;
+}
+.header_logo:hover{
+    scale: 1.2;
+}
