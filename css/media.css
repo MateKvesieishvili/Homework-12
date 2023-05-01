@@ -1,0 +1,7 @@
+@media (max-width: 1263px){
+    .contact_us{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
